@@ -1,0 +1,5 @@
+rootProject.name = 'Spring-cloud-zuul'
+
+include 'eureka-server'
+include 'eureka-client'
+include 'zuul-server'

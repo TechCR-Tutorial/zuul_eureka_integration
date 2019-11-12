@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+allprojects {
+    group = 'com.spring.cloud.zuul'
+    version = '0.0.1-SNAPSHOT'
+    sourceCompatibility = '1.8'
+}
